@@ -3,7 +3,6 @@
     --color2: #3882F6;
     --color3: #e5e7eb;
     --color4: #f9faf8;
-    --color5: #1f2937;
     --font-size1: 18px;
     --font-size2: 24px;
     --font-size3: 36px;
@@ -11,10 +10,15 @@
     --font-weight: 900;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 /* header section*/
 
 header{
     background-color: var(--color1);
+    height: auto;
 }
 
 nav, nav ul {
@@ -85,6 +89,7 @@ a, .small{
     width: 25%;
     border-radius: 7px;
     padding: 7px;
+    margin-top: 10px;
 }
 
 .placeholder-img {
@@ -92,4 +97,74 @@ a, .small{
     justify-items: center;
     color: var(--color4);
     background-color: gray;
+}
+
+/* section 2 */
+
+.section2{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.main-text-box, .maindiv{
+display: flex;
+justify-content: center;
+gap: 60px;
+    
+}
+
+.box1{
+    border-style: solid;
+    border-color: var(--color2);
+    height: 130px;
+    width: 130px;
+    border-radius: 10%;
+}
+
+.illus-text{
+    width: 130px;
+    margin-top: 5px;
+}
+
+.text-box{
+    text-align: center;
+
+}
+
+.random-text{
+    color: var(--color1);
+    font-size: var(--font-size3);
+    font-weight: 900;
+    text-align: center;
+}
+
+/* section 3 */
+
+.section3{
+    height: auto;
+    background-color: var(--color3);
+    
+
+}
+
+blockquote{
+    font-size: var(--font-size3);
+    font-style: italic;
+    margin-left: 12%;
+    margin-right: 12%;
+    padding: 5%;
+    text-align: left;
+    
+    & cite{
+        display: block;
+        text-indent: 21ch;
+        font-weight: 900;
+        font-style: normal;
+        &::before{
+            content: "-"
+        }
+    }
+        
 }

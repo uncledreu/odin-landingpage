@@ -168,3 +168,63 @@ blockquote{
     }
         
 }
+
+/* section 4 */
+
+.section4{
+    margin: 5%;
+}
+
+.sec4-box{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color2);
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 10%;
+    padding: 3%;
+
+}
+
+/*
+.button-signup{
+    display: flex;
+    gap: 30px;
+    
+}
+*/
+
+.button2{
+    border-color: var(--color4) ;
+    background-color: var(--color2);
+    color: var(--color4);
+    
+    width: 17%;
+    border-radius: 7px;
+    padding: 7px;
+    margin-bottom: 20px;
+    
+}
+
+
+.action-text-box2{
+    display: flex;
+    gap: 20%;
+}
+
+.sec4-box div p{
+    margin: 0;
+    padding:0;
+}
+
+.sign-up-text{
+    color: var(--color3);
+}
+
+.call-text{
+    font-size: var( --font-size2);
+    color: var(--color4);
+    margin-bottom: 0%;
+}
+
+/* section 5 */
